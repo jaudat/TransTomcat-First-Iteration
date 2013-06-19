@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "./xhtml1-strict.dtd">
+<!-- The Validator should flag this as an invalid XHTML strict document
+     based on the above strict public DOCTYPE and the missing 'li' tag
+     after item 3 in the 'ul' element below.  Test with and without the
+     missing tag to see the different messages produced by the Validator
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+  <head><title>An example of an invalid XHTML strict document</title></head>
+  <body>
+    <h2>A heading</h2>
+      <p style="color: blue; font-size: 200%;">A paragraph</p>
+      <ul>
+	<li>list item 1</li>
+	<li>list item 2
+	<li>list item 3</li>
+	<li>list item 4</li>
+      </ul>
+  </body>
+</html>

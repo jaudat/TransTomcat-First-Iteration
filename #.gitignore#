@@ -1,0 +1,5 @@
+Exam\ Prep/*
+*.tar
+*.tgz
+
+tomcat6/*

@@ -1,0 +1,78 @@
+
+     {"items":[
+<<<<<<< HEAD
+		
+			{"tag": "510", "title": "510-Spadina"}, 
+=======
+      
+   		{"tag": "1S", "title": "1S-Yonge Subway Shuttle"}
+   		, 
+   		{"tag": "12", "title": "12-Kingston Rd"}
+   		, 
+   		{"tag": "14", "title": "14-Glencairn"}
+   		, 
+   		{"tag": "31", "title": "31-Greenwood"}
+   		, 
+   		{"tag": "32", "title": "32-Eglinton West"}
+   		, 
+   		{"tag": "34", "title": "34-Eglinton East"}
+   		, 
+   		{"tag": "37", "title": "37-Islington"}
+   		, 
+   		{"tag": "38", "title": "38-Highland Creek"}
+   		, 
+   		{"tag": "44", "title": "44-Kipling South"}
+   		, 
+   		{"tag": "45", "title": "45-Kipling"}
+   		, 
+   		{"tag": "46", "title": "46-Martin Grove"}
+   		, 
+   		{"tag": "63", "title": "63-Ossington"}
+   		, 
+   		{"tag": "86", "title": "86-Scarborough"}
+   		, 
+   		{"tag": "90", "title": "90-Vaughan"}
+   		, 
+   		{"tag": "97", "title": "97-Yonge"}
+   		, 
+   		{"tag": "100", "title": "100-Flemingdon Park"}
+   		, 
+   		{"tag": "110", "title": "110-Islington South"}
+   		, 
+   		{"tag": "116", "title": "116-Morningside"}
+   		, 
+   		{"tag": "120", "title": "120-Calvington"}
+   		, 
+   		{"tag": "122", "title": "122-Graydon Hall"}
+   		, 
+   		{"tag": "131", "title": "131-Nugget"}
+   		, 
+   		{"tag": "134", "title": "134-Progress"}
+   		, 
+   		{"tag": "135", "title": "135-Gerrard"}
+   		, 
+   		{"tag": "161", "title": "161-Rogers Rd"}
+   		, 
+   		{"tag": "168", "title": "168-Symington"}
+   		, 
+   		{"tag": "169", "title": "169-Huntingwood"}
+   		, 
+   		{"tag": "190", "title": "190-Scarborough Centre Rocket"}
+   		, 
+   		{"tag": "191", "title": "191-Highway 27 Rocket"}
+   		, 
+   		{"tag": "305", "title": "305-Eglinton East"}
+   		, 
+   		{"tag": "307", "title": "307-Eglinton West"}
+   		, 
+   		{"tag": "311", "title": "311-Islington"}
+   		, 
+   		{"tag": "316", "title": "316-Ossington"}
+   		, 
+   		{"tag": "320", "title": "320-Yonge"}
+   		, 
+   		{"tag": "504", "title": "504-King"}
+   		 
+>>>>>>> b41e99921cea754548a02cc3d2b54f7916f3c2d1
+      ]}	
+    

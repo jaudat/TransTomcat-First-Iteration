@@ -1,0 +1,39 @@
+<?xml encoding="UTF-8"?>
+<!-- 1) In the DTD we cannot for example say that the route[@tag] has to be an integer, it has to be of type CDATA
+        which isn't that specific especially if XML is suppose to to be a markup language
+     2) The stop element occurs on its own and as an attribute of the direction element, but we can only specify it
+        in the DTD only once
+     -->
+<!ELEMENT body (route)
+>
+<!ATTLIST body
+        copyright CDATA #REQUIRED>
+<!ELEMENT route (stop|direction|path)+>
+<!ATTLIST route
+        tag CDATA #REQUIRED
+        title CDATA #REQUIRED
+        color CDATA #REQUIRED
+        oppositeColor CDATA #REQUIRED
+        latMin CDATA #REQUIRED
+        latMax CDATA #REQUIRED
+        lonMin CDATA #REQUIRED
+        lonMax CDATA #REQUIRED>
+<!ELEMENT stop (#PCDATA)>
+<!ATTLIST stop
+        lat CDATA #IMPLIED
+        lon CDATA #IMPLIED
+        stopId CDATA #IMPLIED
+        tag CDATA #REQUIRED
+        title CDATA #IMPLIED>
+<!ELEMENT direction (stop)+>
+<!ATTLIST direction
+        branch CDATA #REQUIRED
+        name CDATA #REQUIRED
+        tag CDATA #REQUIRED
+        title CDATA #REQUIRED
+        useForUI CDATA #REQUIRED>
+<!ELEMENT path (point)+>
+<!ELEMENT point (#PCDATA)>
+<!ATTLIST point
+        lat CDATA #REQUIRED
+        lon CDATA #REQUIRED>

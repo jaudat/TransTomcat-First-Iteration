@@ -1,0 +1,5 @@
+1) Check titles of Runs and Stops pages they have to be dynamically inserted    ----    DONE
+2) Change Predict Analysis's icon in the getstops part ---- DONE
+3) Change color of font for Get Predictions    ---- DONE
+4) Do local storage and presistant data ---- DONE
+5) Branch attribute in Save Buttons should not be the key but the route...
